@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FFB6C1;
+}
+
+.container{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#togepi-gif{
+    width: 400px;
+
+}
+
+h1{
+    font-size: 2rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#yes-btn, #no-btn{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+#yes-btn{
+    color: white;
+    background-color: #00ff40;
+}
+
+#no-btn{
+    color: white;
+    background-color: #ec6b6b;
+}
+
